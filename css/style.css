@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -112,18 +112,26 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+	display: block;
+	float: left;
+	margin: 0.5%;
+
 }
+
+
 
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 0.5%;
 }
 
 .border_right {
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
+	float: left;
+	margin-right: 10%;
 }
 
 .thumbs_up {
@@ -133,6 +141,26 @@ iframe {
 .contact_form {
 	height: 415px;
 }
+
+.archive{
+	width: 32.33%;
+	margin-top: 0;
+
+
+}
+
+.featured{
+	width: 65.66%;
+	margin-top: 0;
+
+}
+.shoes{
+	width: 32.33%;
+
+}
+
+
+
 
 /********** Header **********/
 
@@ -195,6 +223,8 @@ iframe {
 		background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
 		background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
 		background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+		width: 100%;
+		margin-bottom: 20px;
 	}
 
 		#logo h1 {
@@ -277,7 +307,9 @@ iframe {
 	background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+
 }
+
 
 	#details a:link, #details a:visited {
 		color: black;
